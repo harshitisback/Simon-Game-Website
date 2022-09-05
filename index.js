@@ -62,14 +62,22 @@ function checkUser(currenLevel) {
     
 }
 
-$(document).keypress(function (e) { 
+// $(document).keypress(function (e) { 
 
-    if(isStart== false){
+//     if(isStart== false){
+//         nextSequence();
+//         // $("h1").html("Level "+level);
+//         isStart = true;
+//     }
+
+// });
+
+$(document).click(function (e) { 
+    if(isStart == false){
         nextSequence();
-        // $("h1").html("Level "+level);
         isStart = true;
     }
-
+    
 });
 
 
